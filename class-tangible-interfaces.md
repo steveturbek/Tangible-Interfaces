@@ -61,7 +61,7 @@ Homework: final 3D model & presentation
 - Write documentation and share to 3D sharing sites
 - Introduce Project 2
 
-### [Project 2 Media Remote Control Design](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html) (Week 3-5)
+### [Project 2 Media Remote Control Design](project-microbit-media-remote.html) (Week 3-5)
 
 Design Brief: Design and make a working object that can control music/video on your laptop or phone.
 
