@@ -19,6 +19,9 @@ The book is designed to work with an open source educational kit of electronics 
 - Designing interactive device devices
 - Designing Collaborative objects
 - Prototyping The Physical User Experience
+- Beyond the Screen: UX Design for Physical Interfaces
+- Touch, Feel, Interact: Physical UX Design
+- Tangible UX: Designing Interactive Objects
 
 ## Intended Audience
 
