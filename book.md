@@ -2,7 +2,7 @@
 
 ## Elevator Pitch
 
-Like in the book "Flatland", UX design has been trapped in a 2 dimensional world of glowing rectangles, yet a fascinating "third" dimensional world exists for designers to explore. This book introduces "Tangible Interface Design", or UX Design for the real world.
+Like in the book "[Flatland](https://en.wikipedia.org/wiki/Flatland)", UX design has been trapped in a 2 dimensional world of glowing rectangles, yet a fascinating "third" dimensional world exists for designers to explore. This book introduces "Tangible Interface Design", or UX Design for the real world.
 
 This book takes a strategic overview of designing interactive physical products, from what made the iPod successful to why safety studies show touchscreens make cars more dangerous. In an era where so many products are just apps and so many apps look the same, Tangible Interface design shows how physical design can engage all our human senses to create delightful products.
 
