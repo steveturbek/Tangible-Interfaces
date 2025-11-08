@@ -6,9 +6,9 @@ Like in the book "Flatland", UX design has been trapped in a 2 dimensional world
 
 This book takes a strategic overview of designing interactive physical products, from what made the iPod successful to why safety studies show touchscreens make cars more dangerous. In an era where so many products are just apps and so many apps look the same, Tangible Interface design shows how physical design can engage all our human senses to create delightful products.
 
-The book surveys the opportunities and issues for designing smart objects, from home electronics to vehicle design. Each chapter covers a strategic industrial design issue, which is illustrated with a practical how-to guide for prototyping a physical interface. Examples include real world accessibility and ergonomics, to interpreting ambiguous sensor data.
+The book surveys the opportunities and issues for designing smart objects, from home electronics to vehicle design. Each chapter covers a strategic industrial design issue, which is illustrated with a practical how-to guide for prototyping a physical interface. Examples include real world accessibility and ergonomics, to interpreting ambiguous sensor data. In many ways, this book is also a recognition of how amazing the human body is, with our brains, senses, and coordinated muscles.
 
-Prototyping interaction has been challenging for the designer due to the complexity of software. Today's AI, properly used with techniques demonstrated in this book, can empower the designer to take on complex hardware and software challenges including working with data.
+Prototyping interaction has been challenging for the designer due to the inherent complexity of software. Today's AI, properly used with techniques demonstrated in this book, can empower the designer to take on complex hardware and software challenges including working with data.
 
 The book is designed to work with an open source educational kit of electronics sensors and motors, each with step-by-step instructions that make getting started easily, no coding or electronics experience expected. This book hopes to share the fun of expanding UX design in the real world; the focus is on prototyping, not final electronic engineering, but advanced directions for learning are provided.
 
@@ -45,13 +45,23 @@ This book fills the gap for UX designers who want to work with physical interfac
 
 - Why physical computing matters for UX designers
 - What's new/different compared to screen-only UX
-- Who this book is for (hobbyists, prototypers, startup idea folks)
+- Who this book is for (prototypers, startup idea folks, hobbyists, students)
+- Who this book is not for (electrical engineers)
 
 ### Foundations
 
 - What is physical computing (sensors, actuators, embedded systems) — basics
 - Key UX principles when you go physical (affordance, ergonomics, context, feedback loops)
 - The physical-digital interface: bridging hardware + software + UI
+- Accessibility for all: What are tools for?
+
+### Intelligence, artificial and natural
+
+- A brief note on how we'll use artificial intelligence
+- Why we'll not be building AIs or robots in this program
+- The amazing abilities of the human body
+- Electronics & Hardware: The strengths and the weaknesses
+- The missing context between designing the user experience and the physical world
 
 ### Prototyping Tools & Materials
 
