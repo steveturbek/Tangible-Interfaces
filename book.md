@@ -10,7 +10,7 @@ The book surveys the opportunities and issues for designing smart objects, from 
 
 Prototyping interaction has been challenging for the designer due to the inherent complexity of software. Today's AI, properly used with techniques demonstrated in this book, can empower the designer to take on complex hardware and software challenges including working with data. This book hopes to share the fun of expanding UX design in the real world; the focus is on prototyping, not final electronic engineering, but advanced directions for learning are provided.
 
-The book is designed to stand alone, but links to online code and instructions that work with an open source kit of electronics sensors and motors, each with step-by-step instructions that make getting started easily, no coding or electronics experience expected.
+The book is designed as a stand alone work of ideas and process, but it includes online library of code and instructions that work with an open source kit of electronics sensors and motors. This site contains step-by-step instructions that make getting started easily, no coding or electronics experience expected.
 
 ## Potential Titles
 
@@ -56,14 +56,14 @@ This book fills the gap for UX designers who want to work with physical interfac
 - The physical-digital interface: bridging hardware + software + UI
 - Accessibility for all: What are tools for?
 
-### A prototyping philosophy
+### Prototyping as a Design Philosophy
 
 - Why write a design book about prototypes?
 - What is a prototype and why make them?
 - Learning through making
 - Don't fail fast, learn fast
 - Why designers fear usability tests
-- Do you know something, or just know about something? - the designers curse
+- Knowing something vs. knowing about something? - the designers challenge
 
 ### Strategic Design Decisions
 
@@ -332,7 +332,9 @@ This section presents concepts exploring a fundamental principle of tangible int
 - **Pratt Institute** - [Interactive Arts (Digital Arts MFA)](https://www.pratt.edu/art/digital-arts-and-animation/interactive-arts-digital-arts-mfa/)
 - **Carnegie Mellon University** - IDeATe Physical Computing Minor
 - **Parsons School of Design**
+- **SVA **
 - **MIT** - Physical Computing for Artists
 - **ArtCenter College of Design** - Interaction Design BS
 - **University of Washington** - Interactive Design Program
 - **Stanford University (d.school)** - Product Design and Hasso Plattner Institute
+- [Potsdam Interaction Design Lab](https://idl.fh-potsdam.de)
