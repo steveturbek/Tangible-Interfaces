@@ -328,13 +328,13 @@ This section presents concepts exploring a fundamental principle of tangible int
 
 ### Education Programs
 
-- **NYU ITP** - [Physical Computing](https://itp.nyu.edu/physcomp/)
-- **Pratt Institute** - [Interactive Arts (Digital Arts MFA)](https://www.pratt.edu/art/digital-arts-and-animation/interactive-arts-digital-arts-mfa/)
-- **Carnegie Mellon University** - IDeATe Physical Computing Minor
-- **Parsons School of Design**
-- **SVA **
-- **MIT** - Physical Computing for Artists
-- **ArtCenter College of Design** - Interaction Design BS
-- **University of Washington** - Interactive Design Program
-- **Stanford University (d.school)** - Product Design and Hasso Plattner Institute
+- [NYU ITP Physical Computing](https://itp.nyu.edu/physcomp/)
+- [Pratt Institute\*\* Interactive Arts (Digital Arts MFA)](https://www.pratt.edu/art/digital-arts-and-animation/interactive-arts-digital-arts-mfa/)
+- [Carnegie Mellon University - IDeATe Physical Computing Minor](https://ideate.cmu.edu/undergraduate-programs/physical-computing/index.html)
+- [Parsons School of Design](https://www.newschool.edu/parsons/bfa-design-technology/)
+- [NY School of Visual Arts](https://sva.edu/academics/graduate/mfa-interaction-design)
+- [MIT Physical Computing for Artists](https://arts.mit.edu/computing-through-art/)
+- [ArtCenter College of Design - Interaction Design BS](https://www.artcenter.edu/academics/undergraduate-degrees/interaction-design/overview.html)
+- [University of Washington - Interactive Design Program](https://art.washington.edu/design/bdes-interaction-design)
+- [Stanford University (d.school) - Product Design and Hasso Plattner Institute](https://dschool.stanford.edu)
 - [Potsdam Interaction Design Lab](https://idl.fh-potsdam.de)
