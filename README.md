@@ -1,8 +1,3 @@
----
-title: Tangible Interfaces Class Overview
-layout: default
----
-
 # Tangible Interfaces Class
 
 This page contains the materials for the Tangible Interfaces Senior Industrial Design Studio at Pratt Institute, created by [Steve Turbek](https://turbek.com) in 2025.
