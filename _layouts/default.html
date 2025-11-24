@@ -35,6 +35,24 @@
         margin-bottom: 2em;
       }
 
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: #2e4d9c;
+        /* background: transparent;  */
+      }
+
+      a:hover {
+        background: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        font-weight: bold;
+        color: #99ff00;
+        background: transparent;
+      }
+
       @media screen and (max-width: 510px) {
         #main {
           padding: 0;
@@ -53,7 +71,7 @@
       <div id="mini-header">
         <a href="/Tangible-Interfaces/" style="color: #333333; text-decoration: none">
           <img src="/Tangible-Interfaces/images/TurbekT.svg" style="height: 20px; vertical-align: baseline; padding-right: 10px" />
-          <h1 style="display: inline; font-size: 150%"><a href="https://turbek.com">Steve&nbsp;Turbek</a></h1></a
+          <h1 style="display: inline; font-size: 150%"><a href="https://turbek.com" style="">Steve&nbsp;Turbek</a></h1></a
         >
       </div>
       <div id="content">{{ content }}</div>
