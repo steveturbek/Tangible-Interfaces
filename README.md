@@ -332,3 +332,13 @@ There are LOTS of diagrams to convey some intangible ideas and best practices of
 - eBay – [Include—Accessibility Annotations](https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations)
 - Indeed – [A11y Annotation Kit](https://www.figma.com/community/file/953682768192596304/a11y-annotation-kit)
 - Intopia – [accessibility annotation kit](https://www.figma.com/community/file/1022394680250523675/intopias-accessibility-annotation-kit)
+
+<div class="toc-wrapper" markdown="1">
+
+## Contents
+
+{: .no_toc}
+
+- TOC
+{:toc}
+</div>
