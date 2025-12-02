@@ -10,7 +10,7 @@
 {:toc}
 </div>
 
-<b class=".hideFromJekyll-showInGithubPreview"> for the best experience, go to the <a href="https://turbek.com/Tangible-Interfaces/">actual article web page</a></b>
+<b class=".hideFromJekyll-showInGithubPreview">For the best experience, go to the <a href="https://turbek.com/Tangible-Interfaces/">actual article web page</a></b>
 
 This page contains the materials for the Tangible Interfaces Senior Industrial Design Studio at Pratt Institute, created by [Steve Turbek](https://turbek.com) in 2025.
 
