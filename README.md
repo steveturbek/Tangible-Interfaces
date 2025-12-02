@@ -10,6 +10,8 @@
 {:toc}
 </div>
 
+<b class=".hideFromJekyll-showInGithubPreview"> for the best experience, go to the <a href="https://turbek.com/Tangible-Interfaces/">actual article web page</a></b>
+
 This page contains the materials for the Tangible Interfaces Senior Industrial Design Studio at Pratt Institute, created by [Steve Turbek](https://turbek.com) in 2025.
 
 The studio focuses on designing with tactile and sensory components to build interactive user experiences embodied in physical products. The studio is built around on iterative making with extensive use of 3D modeling and printing.
