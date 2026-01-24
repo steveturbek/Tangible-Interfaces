@@ -28,13 +28,14 @@ We explore the theory and practices of the User Experience Design Process in the
   <img src="images/2025_fall_7271.jpeg" width="200" alt="Spencer Maher">
   <img src="images/2025_fall_7272.jpeg" width="200" alt="Leon Shi">
   <img src="images/2025_fall_7274.jpeg" width="200" alt="Jinlin Wang">
+</p>
+<p  style="text-align:center">  
   <img src="images/2025_fall_7431.jpeg" width="200" alt="Team Wonder Four Sub cockpit">
   <img src="images/2025_fall_7478.jpeg" width="200" alt="Team Sub Marine sub cockpit">
   <img src="images/2025_fall_7479.jpeg" width="200" alt="Team B.A.S.S. sub cockpit">
+</p>
 
 _(Photos of student work, used with permission)_
-
-</p>
 
 ## Class Description
 
@@ -201,8 +202,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 
 ## Materials to get
 
-- [BBC Microbit Starter Kit](https://www.amazon.com/dp/B07KG2M7BM)
-- [Sensor Kit](https://www.amazon.com/KEYESTUDIO-Sensors-Microbit-Breakout-Tutorials/dp/B08H8C6TW5) (can share with 3-6 students)
+- [BBC Microbit Sensor Kit](https://www.amazon.com/dp/B09B7HV9WR)
 - [USB-A to USB-C adapter](https://www.amazon.com/Basesailor-Thunderbolt-Converter-Generation-Microsoft/dp/B09SZ5NHF4/) (for newer computers)
 
 ## Microbit Documentation
