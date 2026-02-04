@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+
+    <style>
+      :root {
+        --bg: #faf9f6;
+        --color-teal: #024454;
+        --color-red: #d84d50;
+        --color-beige: #e4d0b9;
+        --color-tan: #c19280;
+        --color-blue: #5c82a7;
+        --color-sage: #6f8a81;
+        --color-peach: #fdc296;
+        --color-gray: #606060;
+        --color-orange: #ffb55c;
+        --color-black: #231f20;
+        --color-cream: #fcf8f5;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1a1816;
+          --color-teal: #4a9bae; /* lightened */
+          --color-red: #e87b7d; /* lightened */
+          --color-beige: #8a7566; /* darkened */
+          --color-tan: #9a7768; /* darkened */
+          --color-blue: #7a9dbd; /* lightened */
+          --color-sage: #8ba89d; /* lightened */
+          --color-peach: #c9956d; /* darkened */
+          --color-gray: #a0a0a0; /* lightened */
+          --color-orange: #d9a066; /* darkened */
+          --color-black: #e8e4e0; /* inverted to light */
+          --color-cream: #2a2624; /* inverted to dark */
+        }
+      }
+
+      html {
+        width: 100%;
+        padding: 0;
+      }
+      body {
+        width: 100%;
+        text-align: center;
+        font:
+          400 100% "Helvetica Neue",
+          Helvetica,
+          "Arial Unicode MS",
+          Arial,
+          sans-serif;
+        font-size: 120%;
+        text-rendering: optimizeLegibility;
+        text-wrap: pretty;
+        background-color: var(--color-cream);
+        color: var(--color-black);
+      }
+
+      #main {
+        margin: auto;
+        margin-top: 1em;
+        max-width: 1100px;
+      }
+
+      #mini-header,
+      footer {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 2em;
+      }
+
+      #cover {
+        max-width: 800px;
+        margin: 0 auto 2em;
+      }
+
+      #cover img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      #content-container {
+        position: relative;
+      }
+
+      #content {
+        text-align: left;
+        margin-bottom: 2em;
+        max-width: 800px;
+      }
+
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: #2e4d9c;
+      }
+
+      a:hover {
+        background: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        font-weight: bold;
+        color: #99ff00;
+        background: transparent;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-weight: 500;
+      }
+
+      p,
+      li {
+        font-size: 14px;
+      }
+
+      /* hack to show SVG instructions in github readme preview, but hide in github pages, processed with Jekyll */
+      .hideFromJekyll-showInGithubPreview {
+        display: none;
+      }
+
+      @media screen and (max-width: 510px) {
+        #main {
+          padding: 0;
+          margin: 0;
+          max-width: 95%;
+        }
+
+        a {
+          word-break: break-all;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="cover">
+        <img src="{{ site.baseurl }}/images/cover.svg" alt="{{ site.github.repository_name | replace: '-', ' ' }}" />
+      </div>
+      <div id="content-container">
+        <div id="content">{{ content }}</div>
+      </div>
+      <footer>
+        <p>© steve turbek</p>
+      </footer>
+    </div>
+  </body>
+</html>
