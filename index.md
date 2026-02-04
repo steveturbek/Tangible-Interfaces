@@ -1,4 +1,4 @@
-# Tangible Interfaces Readme
+# Tangible Interfaces Index
 
 <div class="toc-wrapper" markdown="1">
 
