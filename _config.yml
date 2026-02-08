@@ -3,7 +3,7 @@ description: >-
   Senior Industrial Design Studio at Pratt Institute.
   Designing with tactile and sensory components to build
   interactive user experiences embodied in physical products.
-url: https://steveturbek.github.io
+url: turbek.com/tangible-interfaces
 baseurl: /tangible-interfaces
 
 # Build settings
@@ -25,3 +25,6 @@ exclude:
   - README.md
   - LICENSE
   - .gitignore
+  - setup.md
+  - Gemfile
+  - Gemfile.lock
