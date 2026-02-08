@@ -92,12 +92,6 @@ Homework: final 3D model & presentation
 
 Design Brief: Design and make a working object that can control music/video on your laptop or phone.
 
-<!--
-#### "Hacky Bird"
-
-Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
--->
-
 Class 5
 Intro to Microbit software and hardware
 
@@ -140,69 +134,3 @@ Homework: Bring finished models, software, electronics, with a Presentation mila
 ### Project 3: [Submarine Cockpit](https://github.com/steveturbek/tangible-interfaces-Submarine-Design-Project/tree/main)
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.
-
-<hr>
-
-## Case Study: Car Dashboard Design
-
-The design of in-car interfaces has become increasingly controversial as touchscreens replace traditional physical controls, creating a tension between technological advancement and user safety. Customers and safety researchers have expressed clear preference for physical over touch screen controls.
-
-Safety concerns are paramount, as research consistently shows touchscreens require visual attention, taking drivers' eyes off the road for dangerous periods. Despite these concerns, economic factors drive touchscreen adoption, as automakers find them cheaper to manufacture and update than physical components. The "Tesla effect" has been significant, with Tesla pioneering large touchscreens in cars with the 2012 Model S, setting a trend other manufacturers followed. However, regulatory intervention is emerging, with safety authorities like Euro NCAP beginning to require physical controls for critical functions. Consumer experience has evolved too—after initial enthusiasm, many drivers find touchscreens frustrating in real-world driving conditions. In response, a hybrid approach is developing, with the industry moving toward combining physical controls for essential functions with touchscreens for secondary features. Some experts suggest voice interfaces might eventually reduce reliance on both touchscreens and physical buttons, though haptic feedback limitations remain a fundamental issue, as touchscreens lack the tactile feedback that allows drivers to operate controls without looking away from the road.
-
-**As an exercise in forensic design, why did this trend start, why did it last so long, and why might it be changing now.**
-
-- [The Subtle Art of Designing Physical Controls for Cars](https://www.theturnsignalblog.com/the-subtle-art-of-designing-physical-control-for-cars/)
-- [Tesla’s Touchscreen UI: A Case Study of Car-Dashboard User Interface](https://www.nngroup.com/articles/tesla-big-touchscreen/)
-- [3 reasons why Tesla’s dashboard touch screens suck](https://www.fastcompany.com/90356020/3-reasons-why-teslas-dashboard-touch-screens-suck)
-- [https://www.bloomberg.com/news/features/2023-02-13/are-car-touch-screens-getting-out-of-control](https://www.bloomberg.com/news/features/2023-02-13/are-car-touch-screens-getting-out-of-control)
-- [Physical Controls Are Back Because Drivers Are Sick Of Endless Touchscreen Menus](https://www.carscoops.com/2024/11/button-expert-explains-why-touchscreens-didnt-actually-kill-physical-controls/)
-- [Touchscreens Are Out, and Tactile Controls Are Back](https://spectrum.ieee.org/touchscreens)
-- [Study: Hardware buttons in cars are safer than touchscreens](https://www.themanual.com/auto/touchscreen-in-car-less-safe-than-buttons/)
-- [Could Touchscreens in Cars Be on Their Way Out Already? Let's Hope So](https://www.lifewire.com/car-touchscreens-safety-ratings-8605508)
-- [If Cars With Touchscreens Are Unsafe at Any Speed, Why Do We Have Them?](https://www.kiplinger.com/personal-finance/car-touchscreens-unsafe-why-do-we-have-them)
-- [Our Tesla Model 3's Turn Signals Aren't Just Dumb, They're Borderline Unsafe](https://www.edmunds.com/car-news/2024-tesla-model-3-turn-signals-long-term-update.html)
-- [Analysis: Are touchscreens a good thing?](https://www.autocar.co.uk/car-news/technology/analysis-are-touchscreens-good-thing)
-- [New Safety Guidelines Could Kill an Annoying Automotive Trend](https://www.motortrend.com/news/new-car-interior-touchscreen-euro-ncap-safety-testing)
-- [Former Apple design boss calls for physical buttons to return to car interiors](https://www.drive.com.au/news/former-apple-design-boss-physical-buttons-return-to-car-interiors/)
-- [Physical buttons outperform touchscreens in new cars, test finds](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
-- [screens Studios](https://www.screensstudio.com/en/products) - recordings of almost every car infotainment system
-- [Auto Interfaces](https://www.autointerfaces.com)
-- [Sci-Fi Interfaces](https://scifiinterfaces.com)
-
-Interestingly, the new apple car play addresses very few of the safety concerns above
-
-- [New Apple CarPlay Ultra tested: hands-on](https://www.topgear.com/car-news/tech/new-apple-carplay-ultra-tested-hands-every-new-feature#comments)
-
-# Tips for class
-
-## "Looks like" and a "Works like" prototypes
-
-Students sometimes compromise the designed form of their design model to accommodate the prototype electronics. We don't make that mistake in this class.
-
-Your design may be too small to hold the electronics, that is totally normal early in the design process. That's why we make "looks like" (aka actual size and shape) models, to see how it feels, and also, larger prototypes to test interaction, So for example, if you were designing an electronic ring remote, you could make one the size of a bracelet, or have the wires coming out into a box. Totally normal for prototyping.
-
-When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often look totally different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
-
-## Tech Tips Triage for Microbit
-
-- Make sure to check if sensor or motor needs 5v vs 3v. Some sensors need more volts or amps. Sometimes adding a power cable or battery pack just makes it work
-- Make a firm base to attach things to
-- Tape down wires. Often loose wires are the problem
-- If using the T shaped microbit edge connector for a breadboard, put the battery pack into the T shaped connector, not the microbit.
-- Which pins are always safe to use? 0,1,2
-- LED ENABLE code command interferes with pins reading or writing, which can be confusing
-- Watch out for multiple forever loops
-- Keep your main program loop fast, so you can sample data frequently
-- Be very careful with pauses - the microbit doesn't do ANYTHING when paused and will miss input or output.
-- When powered just by microbit, a servo range is 90 degrees and is slower
-- When powered with 6 AA, servo range goes to 180 degrees, is faster
-- I2EE LCD screen - remember to adjust polarity or can look off
-
-# Reference: Microbit
-
-The microbit is a small and inexpensive computer and circuit board, which can be programmed via a web browser with simple coding. It has a surprising number of sensors and features built in.
-
-## Materials to get
-
-- [BBC Microbit Sensor Kit](https://www.amazon.com/dp/B09B7HV9WR)
-- [USB-A to USB-C adapter](https://www.amazon.com/Basesailor-Thunderbolt-Converter-Generation-Microsoft/dp/B09SZ5NHF4/) (for newer computers)

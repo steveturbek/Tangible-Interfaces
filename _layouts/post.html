@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Tangible Interfaces</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
@@ -84,9 +84,14 @@
   <body>
     <div id="main">
       {% include header.html %}
-      <div id="content">{{ content }}</div>
+      <div id="content">
+        <p><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
+        <h1>{{ page.title }}</h1>
+        <p style="color: var(--color-darkgray); font-size: 90%;">{{ page.date | date: "%B %-d, %Y" }}</p>
+        {{ content }}
+      </div>
       <footer>
-        <p>© steve turbek</p>
+        <p>&copy; steve turbek</p>
       </footer>
     </div>
   </body>

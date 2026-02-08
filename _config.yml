@@ -8,6 +8,8 @@ baseurl: /tangible-interfaces
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+theme: null
 
 # Default layout for all pages
 defaults:
@@ -19,6 +21,11 @@ defaults:
       path: "index.html"
     values:
       layout: null
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
 
 # Exclude files from the build
 exclude:
