@@ -41,7 +41,7 @@ The Tangible Interfaces Lab at Pratt Institute, created by
 products.
 
 <div class="pullquote">
-What's your favorite instance of haptic nostalgia—the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?
+What's your favorite instance of <b>haptic nostalgia</b> —the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?
 <cite>— <a href="https://bsky.app/profile/emckean.bsky.social/post/3lfjeep3w4k22">Erin McKean (@emckean.bsky.social)</a></cite>
 </div>
 
