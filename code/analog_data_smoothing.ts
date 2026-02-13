@@ -1,8 +1,9 @@
 // @ts-nocheck
 
-// basic analog sensor demo
+// Demonstrates smoothing noisy analog sensor data using a rolling average
+// and dynamic min/max tracking to produce a stable percentage output.
 
-// Set up
+// --- Setup ---
 let ValueAsPercentage = 0;
 let SmoothedValue = 0;
 let maxValue = 0;
@@ -11,9 +12,9 @@ let SensorMax = 0;
 let SensorMin = 0;
 // What the sensor reads in - will vary for each sensor
 let RawSensorValue = 0;
-// Min for the sensor DETERMINE BY TESTING
+// Min for the sensor (you need to update this with values from using the sensor the way you want)
 SensorMin = 0;
-// Max for the sensor DETERMINE BY TESTING
+// Max for the sensor (you need to update this with values from using the sensor the way you want)
 SensorMax = 256;
 // This gets reset by this program every run
 minValue = 1023;
@@ -22,7 +23,7 @@ maxValue = 0;
 SmoothedValue = 511;
 ValueAsPercentage = 50;
 
-// main loop of program
+// --- Main Loop ---
 
 basic.forever(function () {
   basic.pause(100);
@@ -36,6 +37,7 @@ basic.forever(function () {
   serial.writeValue("Min", minValue);
 });
 
+// --- Functions ---
 function CleanAnalogData(input2: number) {
   // Ignore values outside the normal range.  Differs for each sensor
   if (input2 >= SensorMin && input2 <= SensorMax) {
@@ -43,7 +45,7 @@ function CleanAnalogData(input2: number) {
     if (input2 > maxValue) {
       maxValue = input2;
     }
-    // Set new Max Value as new readings come in
+    // Set new Min Value as new readings come in
     if (input2 < minValue) {
       minValue = input2;
     }

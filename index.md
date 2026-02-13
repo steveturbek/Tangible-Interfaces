@@ -21,6 +21,11 @@ h2 {margin-top:3em;}
   margin-top: 0.5em;
   color: var(--color-gray);
 }
+
+/* hide h3 items on home page */
+#markdown-toc li ul { 
+  display:none;
+}
 </style>
 
 <div class="toc-wrapper" markdown="1">

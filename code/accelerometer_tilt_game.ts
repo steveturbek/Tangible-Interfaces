@@ -1,10 +1,8 @@
 // @ts-nocheck
+// Tilt-to-navigate game: tilt the micro:bit to move a bright dot toward a dimmer
+// target dot on the 5x5 LED grid. Press button A when you reach it to check.
 
-// Tilt-to-navigate game:
-// tilt the micro:bit to move a bright dot toward a dimmer dot on the 5x5 LED grid.
-// Press A when you think you've reached it to check.
-
-// Set up
+// --- Setup ---
 let goal: game.LedSprite = null;
 let player: game.LedSprite = null;
 serial.redirectToUSB();
@@ -12,7 +10,7 @@ music.play(music.tonePlayable(262, music.beat(BeatFraction.Sixteenth)), music.Pl
 player = game.createSprite(0, 0);
 goal = game.createSprite(2, 2);
 
-// main loop of program
+// --- Main Loop ---
 basic.forever(function () {
   basic.clearScreen();
   if (input.acceleration(Dimension.X) > 500) {
@@ -31,7 +29,8 @@ basic.forever(function () {
   basic.pause(100);
 });
 
-// This section activates when a button is pressed
+// --- Event Handlers ---
+// Runs when button A is pressed to check if player reached the goal
 input.onButtonPressed(Button.A, function () {
   if (player.get(LedSpriteProperty.X) == goal.get(LedSpriteProperty.X) && player.get(LedSpriteProperty.Y) == goal.get(LedSpriteProperty.Y)) {
     serial.writeString("WON");

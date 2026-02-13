@@ -1,19 +1,24 @@
 // @ts-nocheck
 
-// an all-too mininmal version of flappy bird on the tiny LED screen
+// A minimal version of Flappy Bird on the micro:bit 5x5 LED screen.
+// Press button A to flap upward; avoid the walls scrolling toward you.
 
+// --- Event Handlers ---
+// Runs when button A is pressed - flap the bird upward
 input.onButtonPressed(Button.A, function () {
   birdY += -1;
   if (birdY < 0) {
     birdY = 0;
   }
 });
+// --- Setup ---
 let birdY = 0;
 basic.clearScreen();
 let score = 0;
 birdY = 0;
 let wallX = 5;
 let WallHoleY = 2;
+// --- Main Loop ---
 basic.forever(function () {
   basic.clearScreen();
   if (wallX < 0) {

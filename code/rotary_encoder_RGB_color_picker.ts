@@ -1,15 +1,13 @@
 // @ts-nocheck
 //
-//  this program demonstrates a cool RGB Rotary Encoder with button
-//  for a component like https://www.amazon.com/Electronics123-com-Inc-Rotary-Encoder-Illuminated/dp/B08159QYDK
-//  When the user twists it, it changes color
-//  Clicking button sends the color hex value to the computer over serial
+//  RGB rotary encoder color picker: twist to cycle through colors on the built-in
+//  RGB LED, press the button to send the selected hex color value over serial.
 //
 //  The RGB Encoder has 2 sides with pins
 //    Facing the 3 pin side, left to right
 //    1) Encoder A connect to Pin 9
 //    2) Ground
-//     3) Encoder B connexct to *in 8
+//     3) Encoder B connect to Pin 8
 //    Facing the 5 pin side, left to right
 //    4) Voltage. 3.3v seems to work
 //    5) Blue connect to Pin 2
@@ -18,12 +16,13 @@
 //     8) Red connect to Pin 0
 //  Note the device is wired different than other simple components, which can cause confusion
 //  You set LED pins down to light them.
-//  You can us analog out to control brightness,
+//  You can use analog out to control brightness,
 //  pins.analog_write_pin(AnalogPin.P0, 0) is fully on
 //  pins.analog_write_pin(AnalogPin.P0, 1023) is fully off
 //  Rotary Encoder can NOT use the standard microbit KY-040 rotary encoder extension
 //  very helpful guide https://qbalsdon.github.io/circuitpython/rotary-encoder/python/led/2021/02/27/rgb-rotary-encoder.html
 
+// --- Setup ---
 let current_time: number;
 let encoder_a: number;
 let encoder_b: number;
@@ -39,6 +38,8 @@ let blue = 0;
 let color_position = 0;
 let encoder_a_prev = 1;
 let loop_time = input.runningTime();
+
+// --- Functions ---
 function to_hex(value: number) {
   let hex_digits = "0123456789abcdef";
   return hex_digits[Math.idiv(value, 16)] + hex_digits[value % 16];
@@ -62,6 +63,7 @@ function set_color_from_position(pos: number) {
   }
 }
 
+// --- Main Loop ---
 while (true) {
   set_color_from_position(color_position);
   pins.analogWritePin(AnalogPin.P0, 1023 - red * 4);

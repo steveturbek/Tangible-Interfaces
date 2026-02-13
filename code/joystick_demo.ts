@@ -1,23 +1,19 @@
 // @ts-nocheck
-/*
- This simple program takes in input from a KEYESTUDIO analog joystick
- Similar to seen on game console joysticks
- this component has 5 pins
- Y joystick direction - connect to pin 0
- X joystick direction - connect to pin 1
- S (switch) is the click action  - connect to pin 2
- 
- the code in the X & Y variables does a few things
- MAP proportionally changes the input to a number between 0 & 4 ( the number of pixels on the screen)
- ROUND just rounds the number to a whole number
- If the switch (digital read pin 2) is clicked  (1 means clicked) it makes a sound and an animation
-*/
+// Reads an analog joystick and displays position as a dot on the LED screen.
+// Pressing the joystick button plays a sound. Uses a KEYESTUDIO analog joystick.
+//
+// Wiring: Y direction → pin 0, X direction → pin 1, Switch → pin 2
+// MAP scales the 0-1023 input to 0-4 (pixel positions on the LED grid)
+// ROUND converts to whole numbers for LED coordinates
+// Digital read pin 2: 1 = button clicked
 
+// --- Setup ---
 let Y = 0;
 let X = 0;
 serial.redirectToUSB();
 basic.showIcon(IconNames.Chessboard);
 music.play(music.tonePlayable(262, music.beat(BeatFraction.Sixteenth)), music.PlaybackMode.UntilDone);
+// --- Main Loop ---
 basic.forever(function () {
   basic.clearScreen();
   X = Math.round(Math.map(pins.analogReadPin(AnalogReadWritePin.P1), 0, 1023, 4, 0));

@@ -1,11 +1,13 @@
 // @ts-nocheck
-// this program reads the hardware compass on the microbit and shows the arrow that roughly points in that direction
+// Reads the micro:bit's built-in compass and displays an arrow on the LED screen
+// pointing in the compass direction (N, NE, E, SE, S, SW, W, NW).
 
+// --- Setup ---
 let angle = 0;
 basic.showIcon(IconNames.Triangle);
 input.calibrateCompass();
 
-// main loop of program
+// --- Main Loop ---
 basic.forever(function () {
   angle = input.compassHeading();
   if ((angle >= 0 && angle < 45) || angle >= 360) {
