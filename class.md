@@ -25,6 +25,7 @@ We explore the theory and practices of the User Experience Design Process in the
   <img src="images/2025_fall_7271.jpeg" width="200" alt="Spencer Maher">
   <img src="images/2025_fall_7272.jpeg" width="200" alt="Leon Shi">
   <img src="images/2025_fall_7274.jpeg" width="200" alt="Jinlin Wang">
+</p>
 
 ## Class Schedule
 

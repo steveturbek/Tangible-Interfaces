@@ -13,7 +13,15 @@ The makecode.microbit.org links are under s t urbek gmail account
 {:toc}
 </div>
 
-## Built-in Cose Examples
+## Intro
+
+The Tangible Interfaces Class introduces interaction design using the BBC Microbit device and common sensors (see [hardware](hardware.html)). These code samples are meant to demonstrate functionality to help you get started exploring hardware interaction.
+
+We code in JavaScript as it is a very common programming language. The Blocks style of coding has, in my experience, been more confusing than helpful. JavaScript programs are text, so it is easy to add `// comments` to explain the code. AI tools are very familiar with JavaScript, and can help to fix bugs or suggest features.
+
+The Microbit is easy to program, no software needs to be installed. Connect the board to your computer with a USB cable and go to [https://makecode.microbit.org](https://makecode.microbit.org){:target="\_blank"} for tutorials. You will be able to connect the board and program it from the webpage. It is possible to program the Microbit from the phone or tablet app, but it is harder.
+
+## Built-in Code Examples
 
 These programs work with the microbit alone, no wiring or components needed.
 
