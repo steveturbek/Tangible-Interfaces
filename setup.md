@@ -6,6 +6,21 @@ to build site locally and run put in terminal in VS Code
 bundle exec jekyll serve --incremental & sleep 2 && open -a "Google Chrome" http://localhost:4000/tangible-interfaces/
 ```
 
+## local Code synch with microbit
+
+makecode has an API that uses the share ID
+https://makecode.microbit.org/api/S03522-41298-89839-41752/text
+
+it retuns a JSON object
+the code is in the "main.ts"
+
+synch-check to compare local files to makecode
+
+./sync-check.sh # Basic comparison
+./sync-check.sh --code-only # Ignore comments, whitespace, semicolons
+./sync-check.sh --verbose # Show diffs
+./sync-check.sh --code-only --verbose # Best: show only real code changes
+
 ## One-Time Setup
 
 ### 1. Install Homebrew Ruby and rbenv
