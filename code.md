@@ -13,7 +13,9 @@ The makecode.microbit.org links are under s t urbek gmail account
 {:toc}
 </div>
 
-## Built-in Sensors
+## Built-in Cose Examples
+
+These programs work with the microbit alone, no wiring or components needed.
 
 ### Microbit Button
 
@@ -46,6 +48,8 @@ Tilt-to-navigate game: tilt the micro:bit to move a bright dot toward a dimmer t
 {% endhighlight %}
 
 ## Simple Digital Input
+
+Digital input is a yes/no or on/off measurement.
 
 ### Simple External Button
 
